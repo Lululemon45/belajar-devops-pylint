@@ -11,3 +11,4 @@ def calculate_result(a, b, c):
 
 
 calculate_result(True, False, None)
+
