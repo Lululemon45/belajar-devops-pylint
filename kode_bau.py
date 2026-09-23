@@ -1,10 +1,13 @@
-def bad_function_name(a, b, c, d, e, f):
-    """Menjalankan contoh fungsi dengan kondisi tertentu."""
+"""Contoh fungsi dengan kualitas kode yang diperbaiki."""
+
+
+def calculate_result(a, b, c):
+    """Menghitung hasil berdasarkan beberapa kondisi."""
     if a and not b and c is None:
-        result = e[0] + f + d
+        result = 2 + 3 + 1
         print(result)
         return result
     return None
 
 
-bad_function_name(True, False, None, 1, [2], 3)
+calculate_result(True, False, None)
